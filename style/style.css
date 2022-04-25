@@ -152,9 +152,16 @@ section .video {
     font-weight: 700;
 }
 
+.form-3 span {
+    color: red;
+    font-weight: 900;
+    font-size: 28px;
+}
+
 .form-4 img {
-    width: 512px;
-    height: 513px;
+    width: 510px;
+    height: 512px;
+    border: 1px solid grey;
 }
 
 .photo {
@@ -213,7 +220,8 @@ section .video {
 .phone-input {
     border-top: 1px solid gray;
     text-align: center;
-    height: 65px;
+    padding: 3px 0;
+    height: 80px;
     position: sticky; 
     z-index: 199;
     bottom: 0;
@@ -298,6 +306,8 @@ footer {
         width: 100%;
     }
     
+   
+
     .form-4 {
         display: flex;
         justify-content: center;
@@ -371,19 +381,20 @@ footer {
     }
 
     .delivery-info {
-        font-size: 14px;
-        margin: -39% 22%;
-        width: 60%;
+        font-size: 16px;
+        margin: -37% 22%;
+        width: 70%;
+        padding: 5px;
     }
 
     .form-1 img {
-        width: 375px;
-        height: 375px;
+        width: 370px;
+        height: 370px;
     }
 
     .form-4 img {
-        width: 375px;
-        height: 375px;
+        width: 370px;
+        height: 370px;
     }
 
     .video_bg h1 {
@@ -417,12 +428,18 @@ footer {
         }
 
         .delivery-info {
+            padding: 5px;
             font-size: 14px;
-            margin: -39% 11%;
-            width: 75%;
+            margin: -37% 10%;
+            width: 80%;
         }
         .video-text {
             left: 1%;
             top: 10%;
+        }
+
+        .btn {
+            padding: 0 5px;
+            text-align: center;
         }
 }
