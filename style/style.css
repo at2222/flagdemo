@@ -46,6 +46,7 @@ body {
 }
 
 .main-header {
+    min-height: 50px;
     height: 50px;
     position: sticky; 
     top: 0;
@@ -388,13 +389,13 @@ footer {
     }
 
     .form-1 img {
-        width: 370px;
-        height: 370px;
+        width: 360px;
+        height: 360px;
     }
 
     .form-4 img {
-        width: 370px;
-        height: 370px;
+        width: 360px;
+        height: 360px;
     }
 
     .video_bg h1 {
@@ -436,6 +437,10 @@ footer {
         .video-text {
             left: 1%;
             top: 10%;
+        }
+        
+        .phone-number {
+        margin-left: 5px;
         }
 
         .btn {
