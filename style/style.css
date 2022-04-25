@@ -401,5 +401,28 @@ footer {
     .right-video-block a{
         font-size: 22px;
     }
+}
 
+@media (max-width:490px){
+    .video_bg h1 {
+            font-size: 1.2rem;
+            color: #00ffd2;
+            text-align: center;
+        }
+        
+        .video_bg p {
+            font-size: 1.05rem;
+            color: #00ffd2;
+            text-align: center;  
+        }
+
+        .delivery-info {
+            font-size: 14px;
+            margin: -39% 11%;
+            width: 75%;
+        }
+        .video-text {
+            left: 1%;
+            top: 10%;
+        }
 }
